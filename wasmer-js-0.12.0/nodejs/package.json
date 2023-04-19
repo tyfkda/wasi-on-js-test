@@ -1,0 +1,18 @@
+{
+  "name": "nodejs",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "exec": "node main.js ../../res/filetest.wasm",
+    "exec:wasmer": "wasmer --dir=. ../../res/filetest.wasm",
+    "exec:wasmtime": "wasmtime --dir=. ../../res/filetest.wasm",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@wasmer/wasi": "^0.12.0"
+  }
+}
